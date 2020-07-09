@@ -1,0 +1,410 @@
+* {
+  text-decoration: none;
+}
+.projects {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  background: linear-gradient(135deg, #fff, #f9f9f9);
+}
+
+.showcase {
+  max-width: 1200px;
+  height: 20rem;
+  margin: auto;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.showcase nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: initial;
+  right: initial;
+  padding: 3rem 1.5rem;
+}
+
+.showcase nav h3 {
+  font-size: 2rem;
+  color: #fc9d03;
+  letter-spacing: 1px;
+}
+
+.showcase nav ul {
+  display: flex;
+  justify-self: flex-end;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.showcase nav ul li {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.showcase nav ul li:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.download-btn {
+  font-size: 1.3rem;
+  padding: 0.3rem 1.5rem;
+  background: #fc9d03;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+  transition: all 250ms ease;
+}
+
+.download-btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  background: #ebc334;
+}
+
+.project-btn {
+  margin: 2rem 1rem;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.3rem 1.5rem;
+  background: #fc9d03;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+  transition: all 250ms ease;
+}
+
+.project-btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  background: #ebc334;
+}
+
+.show-head {
+  margin-top: 2rem;
+}
+
+.show-head h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.show-head p {
+  font-size: 1.5rem;
+  width: 40%;
+}
+
+.lang-strip-head {
+  text-align: center;
+  width: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.p-color {
+  color: #fc9d03;
+}
+
+.language-strip {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateY(2.5rem);
+}
+
+.fa-html5 {
+  color: red;
+}
+
+.fa-css3-alt {
+  color: blue;
+}
+
+.fa-js-square {
+  color: #ebd834;
+}
+
+.fa-react {
+  color: #34c0eb;
+}
+
+.fa-bootstrap {
+  color: #9634eb;
+}
+
+.fa-git {
+  color: #eb7134;
+}
+
+/* Project Grid Area */
+
+.project-grid {
+  margin-top: 5rem !important;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  width: 550px;
+  height: 300px;
+  margin: auto;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 7px 25px 0 rgba(0, 0, 0, 0.03),
+    0 4px 12px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  transform: 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans Condensed", sans-serif;
+  position: relative;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  transition: all 250ms ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 7px 25px 0 rgba(0, 0, 0, 0.06),
+    0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btns {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.grid-item-content {
+  padding: 1rem;
+}
+
+.grid-item-content h1 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.grid-title-adj {
+  font-size: 1.2rem;
+}
+
+.grid-item img {
+  width: 40%;
+  object-fit: cover;
+  animation: slide 5s ease-out infinite;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+/* footer section */
+
+footer {
+  margin-top: 5rem;
+  height: 5rem;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* animations */
+
+@keyframes slide {
+  0% {
+    object-position: -12rem;
+  }
+  50% {
+    object-position: 0rem;
+  }
+  100% {
+    object-position: -12rem;
+  }
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1299px) {
+  .showcase {
+    max-width: 1000px;
+    height: 17rem;
+  }
+
+  .show-head {
+    text-align: center;
+  }
+
+  .show-head h1 {
+    font-size: 3rem;
+  }
+
+  .show-head p {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .grid-item {
+    width: 500px;
+  }
+
+  .grid-item-content h1 {
+    font-size: 1.3rem;
+  }
+
+  .grid-item-content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .language-strip {
+    transform: translateY(2rem);
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .show-head h1 {
+    font-size: 2.5rem;
+  }
+
+  .show-head p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    width: 700px;
+  }
+
+  .language-strip {
+    transform: translateY(1.55rem);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .language-strip {
+    transform: translateY(1.5rem);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .showcase nav h3 {
+    font-size: 1.5rem;
+  }
+
+  .download-btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .language-strip {
+    transform: translateY(1rem);
+  }
+
+  .grid-item {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-head p {
+    width: 80%;
+    margin: auto;
+  }
+
+  .grid-item {
+    width: 400px;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .download-btn {
+    font-size: 1rem;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .project-btn {
+    font-size: 1rem;
+    margin: 0.5rem 0 0.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .showcase {
+    height: 20rem;
+  }
+  .language-strip {
+    transform: translateY(0.5rem);
+  }
+
+  .download-btn {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.3rem;
+  }
+
+  .grid-item {
+    width: 300px;
+  }
+
+  .grid-item p {
+    display: none;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .showcase nav h3 {
+    font-size: 0.8rem;
+  }
+
+  .lang-strip-head {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .showcase nav ul {
+    display: none;
+  }
+
+  .lang-strip-head {
+    font-size: 0.8rem;
+  }
+
+  .grid-item {
+    width: 250px;
+  }
+}
