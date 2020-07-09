@@ -75,12 +75,16 @@ function Projects() {
             </p>
             <div className="btns">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-btn"
                 href="https://github.com/BenRiska/mod5frontend"
               >
                 Frontend Repo
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-btn"
                 href="https://github.com/BenRiska/mod5Backend"
               >
@@ -104,6 +108,8 @@ function Projects() {
             </p>
             <div className="btns">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-btn"
                 href="https://github.com/BenRiska/ruby-project-guidelines-london-web-012720"
               >
@@ -128,6 +134,8 @@ function Projects() {
             </p>
             <div className="btns">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-btn"
                 href="https://github.com/teatauri/gk_booking"
               >
@@ -152,6 +160,8 @@ function Projects() {
             </p>
             <div className="btns">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="project-btn"
                 href="https://github.com/BenRiska/CoronaVirus"
               >
