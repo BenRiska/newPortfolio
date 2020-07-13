@@ -71,7 +71,7 @@ function Projects() {
               A Full Stack Social Media App, allowing users to swipe through
               potential new friends on a tinder inspired interface. The frontend
               was designed with React, the styling is all handmade CSS and the
-              backend database is maintained with Ruby and SQL-Lite.
+              backend is maintained with Ruby and SQL-Lite.
             </p>
             <div className="btns">
               <a
