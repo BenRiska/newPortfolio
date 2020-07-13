@@ -11,11 +11,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route path="/projects">
-          <Projects />
-        </Route>
         <Route path="/">
-          <App />
+          <Projects />
         </Route>
       </Switch>
     </Router>
